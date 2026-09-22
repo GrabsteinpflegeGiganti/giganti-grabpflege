@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grabpflege Ludwigshafen &amp; Grabsteinreinigung | GIGANTI Grabpflege</title>
+<meta name="description" content="GIGANTI Grabpflege in Ludwigshafen: sorgfältige Grabsteinreinigung, regelmäßige Grabpflege und saisonale Bepflanzung in Ludwigshafen, Mannheim, Frankenthal und Bad Dürkheim.">
+<style>
+:root{
+  --green:#405746; --green2:#637765; --cream:#f5efe3; --sand:#e4d8c5;
+  --ink:#302f2a; --muted:#6c6a61; --white:#fffdf9;
+  --shadow:0 12px 35px rgba(39,48,41,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--white);font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.7}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.18;font-weight:700;margin:0 0 18px}
+h1{font-size:clamp(42px,6vw,76px);letter-spacing:-1.5px}
+h2{font-size:clamp(34px,4vw,52px)}
+h3{font-size:28px}
+p{margin:0 0 18px}
+a{color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+.topbar{background:var(--green);color:#fff;padding:10px 0;font-size:15px}
+.topbar .container{display:flex;justify-content:space-between;gap:20px}
+header{position:sticky;top:0;z-index:10;background:rgba(255,253,248,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e8e2d7}
+.nav{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.logo-image{width:70px;height:62px;display:flex;align-items:center;overflow:hidden}
+.logo-image img{width:145px;max-width:none;height:auto;transform:translateX(-38px) translateY(1px)}
+.brandtext strong{display:block;font-family:Georgia,serif;font-size:23px;letter-spacing:2px;font-weight:700}
+.brandtext span{font-family:Georgia,serif;font-size:11px;letter-spacing:1px;color:var(--muted)}
+nav{display:flex;gap:26px;align-items:center;font-size:16px}
+nav a{text-decoration:none}
+.btn{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:14px 22px;border-radius:6px;font-family:Georgia,serif;font-weight:700;border:2px solid var(--green)}
+.btn.light{background:transparent;color:var(--green)}
+.hero{background:var(--cream);padding:64px 0 76px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+.eyebrow{font-family:Georgia,serif;font-size:15px;letter-spacing:1px;color:var(--green);font-weight:700;margin-bottom:14px}
+.hero p{font-size:21px;max-width:680px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0}
+.hero-photo{min-height:540px;border-radius:10px;background:
+linear-gradient(180deg,rgba(25,35,29,.03),rgba(25,35,29,.2)),
+url('grab-1.jpeg') center/cover;
+box-shadow:var(--shadow)}
+.trust{display:flex;flex-wrap:wrap;gap:12px;font-size:15px;color:var(--muted)}
+.trust span{background:#fff;border:1px solid #e3ddd1;padding:8px 12px;border-radius:30px}
+section{padding:88px 0}
+.section-head{max-width:740px;margin-bottom:42px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{padding:30px;background:#fffdf9;border:1px solid #e5dfd4;border-radius:10px;box-shadow:0 8px 24px rgba(60,55,45,.07)}
+.card .icon{font-size:30px;margin-bottom:14px}
+.price{font-family:Georgia,serif;font-size:36px;color:var(--green);margin:8px 0 14px}
+.note{color:var(--muted);font-size:16px}
+.included{background:var(--green);color:white}
+.included-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.included h2{color:white}
+.included ul{padding:0;margin:0;list-style:none}
+.included li{padding:9px 0 9px 28px;position:relative;border-bottom:1px solid rgba(255,255,255,.14)}
+.included li:before{content:"✓";position:absolute;left:0;font-weight:bold}
+.abo{background:var(--cream)}
+.abo-box{display:grid;grid-template-columns:1fr auto;gap:35px;align-items:center;background:white;border:1px solid #e2dacb;border-radius:10px;padding:42px;box-shadow:var(--shadow)}
+.abo-price{font-family:Georgia,serif;font-size:54px;color:var(--green);white-space:nowrap}
+.abo-price small{display:block;font-family:Arial,sans-serif;font-size:15px;color:var(--muted);text-align:right}
+.photo{background:var(--cream)}
+.photo-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px;align-items:center}
+.photo-img{height:430px;border-radius:10px;background:url('grab-2.jpeg') center/cover}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gallery{background:#fffdf9}
+.gallery-grid{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:260px 260px;gap:18px}
+.gallery figure{margin:0;background:#fff;border:1px solid #e5dfd4;border-radius:10px;overflow:hidden;box-shadow:0 8px 24px rgba(60,55,45,.06);position:relative}
+.gallery figure:first-child{grid-row:span 2}
+.gallery img{display:block;width:100%;height:100%;object-fit:cover}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:11px 15px;background:linear-gradient(transparent,rgba(30,35,30,.72));color:#fff;font-size:15px;padding-top:34px}
+.imprint{background:#f5efe3}
+.legal-box{background:#fffdf9;border:1px solid #e2dacb;border-radius:10px;padding:38px;max-width:820px}
+.legal-box h3{font-size:24px;margin-top:28px}
+.legal-box h3:first-child{margin-top:0}
+.legal-box p{margin-bottom:10px}
+.legal-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}.legal-links a{color:inherit;font-weight:700}
+.feature{padding:25px 0;border-top:2px solid var(--sand)}
+.feature strong{display:block;font-family:Georgia,serif;font-size:24px;margin-bottom:7px}
+.about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1fr .8fr;gap:70px}
+.languages{padding:35px;background:var(--cream);border-radius:8px;align-self:start}
+.languages strong{font-family:Georgia,serif;font-size:26px}
+.area{background:var(--cream)}
+.places{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0}
+.place{background:white;border:1px solid #ded6c8;padding:12px 18px;border-radius:30px}
+.contact{background:var(--green);color:white}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.contact h2{color:white}
+.email{font-family:Georgia,serif;font-size:27px;color:white;word-break:break-word}
+.form{background:white;color:var(--ink);padding:32px;border-radius:8px}
+label{display:block;font-weight:700;font-size:15px;margin:0 0 6px}
+input,select,textarea{width:100%;padding:13px 14px;margin:0 0 18px;border:1px solid #d6d0c5;border-radius:4px;font:inherit;font-size:16px;background:#fff}
+textarea{min-height:130px;resize:vertical}
+footer{background:#202a24;color:#dfe5df;padding:35px 0;font-size:14px}
+footer .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){
+ nav{display:none}
+ .hero-grid,.included-grid,.photo-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+ .hero-photo{min-height:380px;order:-1}
+ .gallery figure:first-child{grid-row:auto}
+ .gallery figure{height:300px}
+ .cards,.features,.gallery-grid{grid-template-columns:1fr;grid-template-rows:auto}
+ .abo-box{grid-template-columns:1fr}
+ .abo-price small{text-align:left}
+ body{font-size:18px} h1{font-size:42px}
+ section{padding:65px 0}
+}
+</style>
+<meta name="robots" content="index,follow"><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"GIGANTI Grabpflege","description":"Grabpflege, Grabsteinreinigung und saisonale Bepflanzung in Ludwigshafen und Umgebung.","email":"grabsteinpflege.giganti@gmail.com","areaServed":[{"@type":"City","name":"Ludwigshafen am Rhein"},{"@type":"City","name":"Mannheim"},{"@type":"City","name":"Frankenthal"},{"@type":"City","name":"Bad Dürkheim"}],"serviceType":["Grabsteinreinigung","Grabpflege","Saisonale Grabbepflanzung"]}</script></head>
+<body>
+<div class="topbar"><div class="container"><span>Grabsteinpflege in Ludwigshafen & Umgebung</span><span>Deutsch · Italiano · English</span></div></div>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#">
+      <div class="logo-image"><img src="giganti-logo-konzept.png" alt="Giganti Grabpflege Logo"></div>
+      <div class="brandtext"><strong>GIGANTI</strong><span>GRABPFLEGE · Sorgfältig · zuverlässig · respektvoll</span></div>
+    </a>
+    <nav>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#preise">Preise</a>
+      <a href="#galerie">Bilder</a><a href="#ueber-uns">Über uns</a>
+      <a href="#kontakt" class="btn">Anfrage</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">GIGANTI Grabpflege</div>
+      <h1>Grabpflege und Grabsteinreinigung in Ludwigshafen und Umgebung</h1>
+      <p>Wir kümmern uns sorgfältig um Grabstein und Grabbeet – zuverlässig, fair und mit dem nötigen Respekt.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#kontakt">Grabpflege anfragen</a>
+        <a class="btn light" href="#preise">Preise ansehen</a>
+      </div>
+      <div class="trust">
+        <span>Anfahrt inklusive</span><span>Foto auf Wunsch</span><span>Faire Preise</span>
+      </div>
+    </div>
+    <div class="hero-photo" aria-label="Gepflegter Friedhof als Stimmungsbild"></div>
+  </div>
+</section>
+
+<section id="leistungen">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Unsere Leistungen</div>
+      <h2>Was wir für Sie übernehmen</h2>
+      <p>Sie entscheiden, was Sie benötigen. Wir kümmern uns zuverlässig um die vereinbarte Pflege.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">🪦</div><h3>Grabsteinreinigung</h3>
+        <div class="price">100 €</div>
+        <p>Vorsichtige Reinigung und Entfernung von Moos, Algen, Schmutz, Ablagerungen und – soweit materialverträglich möglich – Flechten.</p>
+        <p class="note"><strong>Anfahrt und Arbeitszeit bereits inklusive.</strong><br>Keine zusätzlichen Anfahrtskosten.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🌱</div><h3>Bepflanzung</h3>
+        <div class="price">ab 35 €</div>
+        <p>Von einer kleinen Auffrischung bis zur saisonalen Komplettbepflanzung. Die Pflanzen werden passend zur Jahreszeit ausgewählt.</p>
+        <p class="note">Pflanzen werden separat berechnet. Sonderwünsche sind selbstverständlich möglich.</p>
+      </article>
+      <article class="card">
+        <div class="icon">📷</div><h3>Foto-Service</h3>
+        <div class="price">auf Wunsch</div>
+        <p>Nach jeder Reinigung oder Bepflanzung schicken wir Ihnen gerne ein Foto per E-Mail.</p>
+        <p class="note">So wissen Sie auch aus der Entfernung, dass die vereinbarte Pflege durchgeführt wurde.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="included">
+  <div class="container included-grid">
+    <div>
+      <div class="eyebrow" style="color:#dbe5dc">Grabsteinreinigung · 100 €</div>
+      <h2>Ein Preis. Ohne versteckte Anfahrtskosten.</h2>
+      <p>Unsere einmalige Grabsteinreinigung kostet 100 €. Darin sind Anfahrt, Arbeitszeit und Reinigung bereits enthalten.</p>
+    </div>
+    <ul>
+      <li>Moos entfernen</li><li>Algen entfernen</li><li>Schmutz entfernen</li>
+      <li>Ablagerungen entfernen</li><li>Flechten, soweit materialverträglich möglich</li><li>Vorsichtige Reinigung der Steinoberfläche</li>
+    </ul>
+  </div>
+</section>
+
+<section id="preise" class="abo">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Unsere Preise</div>
+      <h2>Einmalig oder regelmäßig – Sie entscheiden.</h2>
+      <p>Bei uns gibt es zwei einfache Möglichkeiten: eine einzelne Reinigung oder unser Jahresabo für regelmäßige Pflege.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">🪦</div>
+        <h3>Einmalige Grabsteinreinigung</h3>
+        <div class="price">100 €</div>
+        <p>Wir reinigen den Grabstein vorsichtig und entfernen Moos, Algen, Schmutz und Ablagerungen. Flechten entfernen wir, soweit dies für das Material geeignet ist.</p>
+        <p class="note"><strong>Anfahrt, Arbeitszeit und Reinigung sind bereits enthalten.</strong><br>Keine zusätzlichen Anfahrtskosten.</p>
+        <a class="btn" href="#kontakt">Reinigung anfragen</a>
+      </article>
+      <article class="card">
+        <div class="icon">🌿</div>
+        <h3>Jahresabo</h3>
+        <div class="price">300 €</div>
+        <p>Vier Grabsteinreinigungen innerhalb von 12 Monaten – einmal pro Quartal.</p>
+        <p class="note"><strong>75 € pro Reinigung</strong><br>Sie zahlen drei Reinigungen und erhalten die vierte dazu.</p>
+        <a class="btn" href="#kontakt">Jahresabo anfragen</a>
+      </article>
+      <article class="card">
+        <div class="icon">🌷</div>
+        <h3>Bepflanzung</h3>
+        <div class="price">ab 35 €</div>
+        <p>Kleine, mittlere oder saisonale Komplettbepflanzung – passend zur Jahreszeit und nach Absprache.</p>
+        <p class="note">Pflanzen werden separat berechnet. Sonderwünsche nehmen wir gerne an.</p>
+        <a class="btn" href="#kontakt">Bepflanzung anfragen</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Bepflanzung</div>
+      <h2>Passend zur Jahreszeit</h2>
+      <p>Wir entscheiden gemeinsam mit Ihnen, was zum Grab passt. Grundsätzlich wählen wir Pflanzen saisonal und passend zur Größe und Lage des Beetes aus.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><h3>Kleine Bepflanzung</h3><div class="price">ab 35 €</div><p>Für eine kleine, gepflegte Auffrischung des Grabbeetes.</p><p class="note">zzgl. Pflanzen</p></article>
+      <article class="card"><h3>Mittlere Bepflanzung</h3><div class="price">50 €</div><p>Etwas umfangreicher und mit mehr Zeit für die Gestaltung.</p><p class="note">zzgl. Pflanzen</p></article>
+      <article class="card"><h3>Saisonale Komplettbepflanzung</h3><div class="price">70–100 €</div><p>Das gesamte Beet wird passend zur Saison bepflanzt.</p><p class="note">zzgl. Pflanzen</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="photo">
+  <div class="container photo-grid">
+    <div class="photo-img" aria-label="Blumen und saisonale Bepflanzung"></div>
+    <div>
+      <div class="eyebrow">Auch aus der Ferne gut aufgehoben</div>
+      <h2>Sie wohnen nicht in der Nähe?</h2>
+      <p>Nicht jeder kann regelmäßig zum Friedhof fahren. Vielleicht wohnen Sie weiter entfernt, sind beruflich eingespannt oder können sich aus anderen Gründen nicht selbst darum kümmern.</p>
+      <p><strong>Genau dabei möchten wir Sie unterstützen.</strong></p>
+      <p>Auf Wunsch erhalten Sie nach jeder Reinigung oder Bepflanzung ein Foto per E-Mail. So können Sie sicher sein, dass die vereinbarte Pflege durchgeführt wurde.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Was uns wichtig ist</div>
+      <h2>Damit Sie ein gutes Gefühl haben.</h2>
+      <p>Wir wissen, dass hinter jedem Grab ein Mensch und eine persönliche Geschichte steht. Deshalb behandeln wir jede Grabstätte so, wie wir es uns auch für die Gräber unserer eigenen Angehörigen wünschen würden.</p>
+    </div>
+    <div class="features">
+      <div class="feature"><strong>Mit Respekt</strong><span>Wir arbeiten ruhig, sorgfältig und mit dem nötigen Feingefühl.</span></div>
+      <div class="feature"><strong>Mit Herz</strong><span>Uns ist wichtig, dass ein Grab gepflegt und persönlich wirkt – nicht einfach nur „sauber“.</span></div>
+      <div class="feature"><strong>Mit Vertrauen</strong><span>Auf Wunsch erhalten Sie nach der Pflege ein Foto per E-Mail.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="galerie" class="gallery">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Einblicke</div>
+      <h2>Gepflegte Gräber, mit Liebe zum Detail.</h2>
+      <p>Die Beispiele zeigen die unterschiedlichen Möglichkeiten einer saisonalen und individuellen Bepflanzung.</p>
+    </div>
+    <div class="gallery-grid">
+      <figure><img src="grab-1.jpeg" alt="Gepflegtes Grab mit weißem Blumenschmuck"><figcaption>Liebevoller Blumenschmuck</figcaption></figure>
+      <figure><img src="grab-2.jpeg" alt="Saisonale Grabbepflanzung mit Heide"><figcaption>Saisonale Bepflanzung</figcaption></figure>
+      <figure><img src="grab-3.jpeg" alt="Natürliche Grabbepflanzung mit Stauden und Gräsern"><figcaption>Natürlich und pflegeleicht</figcaption></figure>
+      <figure><img src="grab-4.jpeg" alt="Üppig bepflanztes Grabbeet"><figcaption>Individuelle Gestaltung</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="ueber-uns" class="about">
+  <div class="container about-grid">
+    <div>
+      <div class="eyebrow">Über GIGANTI Grabpflege</div>
+      <h2>Persönlich. Zuverlässig. Mit Respekt.</h2>
+      <p>Wir sind ein kleines Team der Firma Giganti und kümmern uns zuverlässig und sorgfältig um die Pflege von Grabstätten in Ludwigshafen und Umgebung.</p>
+      <p>Uns ist bewusst, dass Angehörige nicht immer selbst vor Ort sein können. Deshalb möchten wir eine unkomplizierte Möglichkeit bieten, ein Grab regelmäßig pflegen zu lassen – ohne dass dafür jedes Mal ein großer Gartenbaubetrieb beauftragt werden muss.</p>
+      <p>Wir arbeiten sorgfältig, respektvoll und transparent.</p>
+      <p><strong>Inhaber: Piero Giganti</strong></p>
+    </div>
+    <div class="languages">
+      <div class="eyebrow">Wir sprechen</div>
+      <strong>Deutsch<br>Italiano<br>English</strong>
+      <p style="margin-top:16px;color:var(--muted)">So können wir auch mit Angehörigen aus unterschiedlichen Sprachräumen unkompliziert kommunizieren.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="area">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Unser Einsatzgebiet</div>
+      <h2>Ludwigshafen und Umgebung</h2>
+      <p>Wir sind aktuell unter anderem in folgenden Orten für Sie da:</p>
+    </div>
+    <div class="places">
+      <span class="place">Ludwigshafen am Rhein</span><span class="place">Mannheim</span>
+      <span class="place">Frankenthal</span><span class="place">Bad Dürkheim</span>
+    </div>
+    <p class="note">Sie sind sich nicht sicher, ob Ihr Friedhof in unserem Einsatzgebiet liegt? Schreiben Sie uns einfach.</p>
+  </div>
+</section>
+
+<section class="area"><div class="container"><div class="section-head"><div class="eyebrow">Grabpflege in der Region</div><h2>Grabpflege in Ludwigshafen und Umgebung</h2><p>Wir übernehmen Grabsteinreinigung, regelmäßige Grabpflege und saisonale Bepflanzung in Ludwigshafen am Rhein und den umliegenden Städten.</p></div><div class="places"><span class="place">Ludwigshafen am Rhein</span><span class="place">Mannheim</span><span class="place">Frankenthal</span><span class="place">Bad Dürkheim</span></div></div></section><section id="kontakt" class="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="eyebrow" style="color:#dbe5dc">Kontakt</div>
+      <h2>Grabpflege anfragen</h2>
+      <p>Schreiben Sie uns gerne mit dem Friedhof, dem gewünschten Service und – wenn möglich – einem Foto des Grabes.</p>
+      <p>Wir melden uns anschließend per E-Mail bei Ihnen.</p>
+      <p class="email">grabsteinpflege.giganti@gmail.com</p>
+    </div>
+    <form class="form" action="mailto:grabsteinpflege.giganti@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Ihr Name</label><input id="name" name="Name" required>
+      <label for="email">Ihre E-Mail-Adresse</label><input id="email" name="E-Mail" type="email" required>
+      <label for="friedhof">Friedhof / Ort</label><input id="friedhof" name="Friedhof">
+      <label for="leistung">Gewünschte Leistung</label>
+      <select id="leistung" name="Leistung">
+        <option>Grabsteinreinigung</option><option>Jahresabo</option><option>Kleine Bepflanzung</option>
+        <option>Mittlere Bepflanzung</option><option>Saisonale Komplettbepflanzung</option><option>Sonstiges</option>
+      </select>
+      <label for="message">Ihre Nachricht</label><textarea id="message" name="Nachricht"></textarea>
+      <button class="btn" type="submit">Anfrage per E-Mail senden</button>
+      <p class="note" style="margin-top:12px">Bitte beachten: Das Formular öffnet Ihr E-Mail-Programm.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<section id="impressum" class="imprint">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Rechtliche Angaben</div>
+      <h2>Impressum</h2>
+    </div>
+    <div class="legal-box">
+      <h3>Angaben gemäß § 5 DDG</h3>
+      <p><strong>GIGANTI Grabpflege</strong><br>Inhaber: Piero Giganti<br>Sternstraße 206<br>67063 Ludwigshafen am Rhein<br>Deutschland</p>
+      <h3>Kontakt</h3>
+      <p>E-Mail: <a href="mailto:grabsteinpflege.giganti@gmail.com">grabsteinpflege.giganti@gmail.com</a><br>Telefon: 0176 84451627</p>
+      <h3>Steuerliche Angaben</h3>
+      <p><strong>Steuernummer:</strong> wird nach Erteilung durch das Finanzamt ergänzt.</p>
+      <p>Eine Umsatzsteuer-Identifikationsnummer wird nur angegeben, sofern eine solche vorhanden bzw. erforderlich ist.</p>
+      <div class="legal-links"><a href="datenschutz.html">Datenschutzerklärung</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div><strong>GIGANTI Grabpflege</strong><br>Inhaber: Piero Giganti</div>
+    <div>Grabpflege · Grabsteinreinigung · Bepflanzung<br>Ludwigshafen · Mannheim · Frankenthal · Bad Dürkheim<br><a href="#impressum">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></div>
+  </div>
+</footer>
+</body>
+</html>
